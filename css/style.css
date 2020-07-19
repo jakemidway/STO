@@ -1,0 +1,512 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	font-size: 21px;
+	font-weight: 400;
+	color: #454545;
+	text-align: center;
+	line-height: 21px;
+	padding-bottom: 37px;
+	/*margin-bottom: 37px;*/
+	/*border: 1px dotted black;*/
+}
+h2:after{
+	content: "";
+	display: block;
+	width: 81px;
+	height: 41px;
+	margin: auto;
+	border-bottom: 2px solid #1e69b8;
+}
+h3{
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+p{
+	font-size: 14px;
+	font-weight: 300;
+	color: #737373;
+}
+li{
+	list-style: none;
+}
+#menu {
+	display: none;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	font-size: 21px;
+	color: #fff;
+}
+.container{
+	width: 1132px;
+	margin: auto;
+}
+.container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.button{
+	width: 194px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 112px;
+}
+.button a{
+	display: block;
+	text-decoration: none;
+	border: 1px solid #92b5db;
+	border-radius: 3px;
+	color: #2378c0;
+	font-size: 13px;
+	padding: 15px 0;
+}
+.button a:hover{
+	color: #fff;
+	background: #2378c0;
+}
+.clearfix{
+	clear: both;
+}
+
+
+/*HEADER*/
+h1{
+	padding: 25px 0 26px;
+	margin-right: 31px;
+	font-size: 19px;
+	float: left;
+}
+header{
+	position: relative;
+	background: url(../img/title-bg2.png);
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 169px;
+}
+header a{
+	color:  #b5b5b5;
+}
+header p{
+	font-weight: 600;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	padding: 139px 0 88px;
+}
+nav{
+	/*position: relative;*/
+}
+nav:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.cap__head{
+	background: rgba(0, 0, 0, 0.67);
+}
+.main__menu ul{
+	float: left;
+}
+.main__menu li{
+	display: inline-block;
+	padding: 30px 27px;
+	font-size: 13px;
+	color: #b5b5b5;
+}
+.tel__button{
+	width: 228px;
+	margin: auto;
+	background: #1e69b8;
+}
+.tel__button a{
+	display: block;
+	padding: 21px 19px;
+	color: #fff;
+	font-size: 21.53px;
+	font-weight: bold;
+}
+.hidden__menu{
+	display: none;
+}
+.hidden__menu li {
+	width: 100%;
+	display: block;
+	padding: 25px 0 20px 10px;
+	background: #131820;
+	border-bottom: 2px solid #424750;
+	z-index: 2;
+}
+.hidden__menu li:hover{
+	background: #1e2632;
+}
+.hidden__menu li:hover a{
+	color: #fff;
+
+}
+
+
+
+
+
+/*popular__services*/
+.popular__services{
+	padding: 115px 0 112px;
+}
+.popular__services .container > p{
+	max-width: 530px;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 112px;
+}
+.cards__pop_services{
+	margin-bottom: 78px;
+}
+.cards__pop_services:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.cards__pop_services .card_services:last-child p{
+	border: none;
+}
+.card_services{
+	float: left;
+	width: 33.3%;
+	background: #f5f5f5;
+}
+.card_services p{
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 400;
+	padding: 20px 0 22px;
+	border-right: 1px solid #e5e4e4;
+}
+.card_services img{
+	display: block;
+	width: 100%;
+}
+
+
+/*all__repair*/
+.all__repair .container > p{
+	max-width: 530px;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 112px;
+}
+.repair__scroll{
+	margin-bottom:78px; 
+}
+.repair__scroll:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.repairs{
+	float: left;
+	width: 33.3%;
+	height: 151px;
+	padding-left: 96px;
+	padding-right: 44px;
+}
+.repairs p{
+	line-height: 30px;
+}
+.ico-cold{
+	background: url(../img/ico-cold.png) 0 7px no-repeat;
+	background-size: 50px;
+}
+.ico-oil{
+	background: url(../img/ico-oil.png) 0 7px no-repeat;
+}
+.ico-diagnostics{
+	background: url(../img/ico-diagnostics.png) 0 7px no-repeat;
+}
+.ico-ignition{
+	background: url(../img/ico-ignition.png) 0 7px no-repeat;
+}
+.ico-electrical{
+	background: url(../img/ico-electrical.png) 0 7px no-repeat;
+}
+.ico-body{
+	background: url(../img/ico-body.png) 0 7px no-repeat;
+}
+
+
+/*Service*/
+.service{
+	background: url("../img/service.png") no-repeat;
+	background-size: cover;
+	width: 100%;
+	/*border: 1px dotted red;*/
+}
+.service p{
+	line-height: 30px;
+}
+.text__service{
+	float: right;
+	width: 51.5%;
+	padding: 105px 0 74px 30px;
+	background: #f5f5f5;
+}
+.service h2{
+	text-align: left;
+}
+.service h2:after{
+	margin: 40px 0 0 0;
+}
+.service ul{
+	padding-top: 50px;
+	columns: 3;
+	margin-bottom: 78px;
+}
+.service li{
+	font-size: 14px;
+	color: #737373;
+	line-height: 30px;
+	padding-left: 23px;
+	background: url(../img/label2.png) 0 7px no-repeat;
+} 
+.service .button{
+	margin-bottom: 0;
+}
+
+
+/*footer*/
+/*footer*/
+footer{
+	color: #fff;
+	background: #73767a;
+	padding: 115px 0 109px;
+	/*border: 1px dotted red;*/
+}
+footer h3{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+footer h3:after{
+	content: "";
+	display: block;
+	width: 40px;
+	height: 2px;
+	background: #fff;
+	margin-top:  28px;
+}
+footer li{
+	font-size: 14px;
+	line-height: 30px;
+}
+.contact,
+.time,
+.our__services{
+	float: left;
+	padding-right: 30px;
+}
+.our__services ul{
+	columns: 2;
+}
+.social{
+	padding-top: 47px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Адоптив*/
+@media (max-width: 1180px){
+	.container{
+		width: 100%;
+		padding: 0 24px;
+	}
+}
+
+@media (max-width: 1100px){
+	.repairs{
+		height: 177px;
+	}
+	.our__services{
+		display: none;
+	}
+	footer {
+		padding: 78px 0 80px;
+	}
+	.contact {
+		margin-left: 72px;
+		margin-right: 148px;
+	}
+	.time {
+		padding-left: 28px;
+	}
+
+}
+
+@media (max-width: 910px){
+	.repairs{
+		width: 40%;
+		padding-left: 70px;
+		padding-right: 22px; 
+		margin-left: 50px;
+	}
+}
+
+@media(max-width: 768px){
+	header{
+		padding-bottom: 130px;
+	}
+	header p{
+		width: 400px;
+		margin: auto;
+	}
+	.container{
+		padding: 0 15px;
+	}
+	.card_services{
+		float: none;
+		width: 63%;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	.card_services p{
+		border: none;
+	}
+	.repairs{
+		padding-left: 60px;
+	}
+	.service .button{
+		margin-bottom: 40px;
+	}
+	.contact{
+		margin-left: 0;
+		margin-right: 76px;
+	}
+}
+
+
+@media(max-width: 712px){
+	.repairs{
+		height: 220px;
+	}
+}
+
+@media(max-width: 640px){
+	header p{
+		width: 80%;
+	}
+	.repairs{
+		float: none;
+		width: 80%;
+		height: auto;
+		margin: auto;
+		padding: 60px 0 0 0;
+		margin-bottom: 20px;
+	}
+	.ico-cold,
+	.ico-oil,
+	.ico-diagnostics,
+	.ico-ignition,
+	.ico-electrical,
+	.ico-body{
+		background-position: 50% 0;
+	}
+	.repairs h3,
+	.repairs p{
+		text-align: center;
+	}
+	.card_services{
+		width: 90%;
+	}
+	.service{
+		background: none;
+	}
+	.text__service{
+		float: none;
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.text__service h2{
+		text-align: center;
+	}
+	.text__service h2:after{
+		margin: 0 auto;
+	}
+	.text__service p{
+		text-align: center;
+	}
+}
+
+@media(max-width: 570px){
+	.contact{
+		position: relative;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	.time{
+		float: right;
+	}
+}
+@media(max-width: 514px){
+	.main__menu{
+		display: none;
+	}
+	#menu{
+		display: block;
+	}
+	.hidden__menu{
+		display: block;
+	}
+}
+@media(max-width: 460px){
+	.text__service ul{
+		columns: 1;
+		padding-left: 29%;
+	}
+	.contact{
+		float: none;
+	}
+	.social{
+		position: absolute;
+		bottom: -300px;
+	}
+	.time{
+		float: none;
+		padding: 50px 0 142px;
+	}
+
+}
+@media(max-width: 320px){
+}
